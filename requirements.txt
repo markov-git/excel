@@ -14,4 +14,4 @@ Git
   Development
     1.0.0
     
-    testing git
+    testing git2
