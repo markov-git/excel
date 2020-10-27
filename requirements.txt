@@ -13,5 +13,3 @@ Git
     1.0.0
   Development
     1.0.0
-    
-    testing git2
