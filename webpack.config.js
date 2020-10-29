@@ -19,9 +19,9 @@ const jsLoaders = () => {
       }
     }
   ]
-  if (isDev) {
-    loaders.push('eslint-loader')
-  }
+  // if (false) {
+  //   loaders.push('eslint-loader')
+  // }
 
   return loaders
 }
