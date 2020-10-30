@@ -19,7 +19,7 @@ const jsLoaders = () => {
       }
     }
   ]
-  // if (false) {
+  // if (isDev) {
   //   loaders.push('eslint-loader')
   // }
 
