@@ -22,13 +22,13 @@ export class ExcelComponent extends DomListener {
 
   // Уведомляем слушателей про событие event
   $emit(event, ...args) {
-    const unsub = this.emitter.emit(event, ...args)
-    this.unsubscribers.push(unsub)
+    this.emitter.emit(event, ...args)
   }
 
   // Подписываемся на событие Event
   $on(event, fn) {
-    this.emitter.subscribe(event, fn)
+    const unsub = this.emitter.subscribe(event, fn)
+    this.unsubscribers.push(unsub)
   }
 
   $dispatch(action) {
